@@ -9,7 +9,7 @@ export default function Register() {
   });
 
   const register = async () => {
-    await axios.post("http://localhost:5000/api/auth/register", data);
+    await axios.post("https://todo-backend-7et8.onrender.com/api/auth/register", data);
     window.location = "/";
   };
 
